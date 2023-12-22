@@ -1,0 +1,8 @@
+commonLabels:
+  app: battleboat
+
+namespace: battleboat-original
+
+resources:
+- ./battleboat
+- namespace.yml

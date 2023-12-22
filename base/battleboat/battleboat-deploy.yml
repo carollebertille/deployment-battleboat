@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: battleboat
+  labels:
+    app: battleboat
+spec:
+  replicas: 1
+  template:
+    metadata:
+      labels:
+        app: battleboat
+    spec:
+      containers:
+      - image: edennolan2021/battleboat:v1
+        imagePullPolicy: Always
+        name: battlebaot
+        ports:
+        - containerPort: 8181
+          name: battleboat

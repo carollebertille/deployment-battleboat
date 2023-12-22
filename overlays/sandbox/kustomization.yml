@@ -1,0 +1,8 @@
+commonLabels:
+  variant: sandbox
+
+namespace: battleboat-sandbox
+
+resources:
+- ./battleboat
+- namespace.yml

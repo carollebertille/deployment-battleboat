@@ -1,0 +1,8 @@
+commonLabels:
+  variant: prod
+
+namespace: battleboat-prod
+
+resources:
+- ./battleboat
+- namespace.yml
