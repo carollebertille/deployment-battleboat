@@ -1,8 +1,8 @@
 resources:
-- ../../../base/geolocation
+- ../../../base/battleboat
 
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
-- name: edennolan2021/geolocation
+- name: edennolan2021/battleboat
   newTag: 1.0.56
