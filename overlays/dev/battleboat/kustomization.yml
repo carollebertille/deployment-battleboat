@@ -5,4 +5,4 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 images:
 - name: edennolan2021/battleboat
-  newTag: 111-0.0.0
+  newTag: 112-0.0.0
